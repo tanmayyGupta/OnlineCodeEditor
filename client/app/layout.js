@@ -16,11 +16,12 @@ export default function RootLayout({ children }) {
         <title> Editor</title>
         <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/10728/10728539.png"/>
       </head>
-
-      <Providers>
-        <Nav />
-        {children}
-      </Providers>
+      <body>
+        <Providers>
+          <Nav />
+          {children}
+        </Providers>
+      </body>
     </html>
   )
 }
